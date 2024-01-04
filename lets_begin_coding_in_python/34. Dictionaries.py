@@ -11,6 +11,7 @@ numbers = {
     "9": "Nine"
 }
 
+# print(numbers.get(0, "not the"))
 phone_number = input("Phone: ")
 words = ""
 for number in phone_number:

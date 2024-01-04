@@ -1,5 +1,5 @@
 def uppercase(str):
-    str = str + '\n'
+    str += '\n'
     for i in range(len(str)):
         if 97 <= ord(str[i]) <= 122:
             print(f"{chr(ord(str[i]) - 32)}", end="")
